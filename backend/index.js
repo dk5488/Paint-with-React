@@ -4,5 +4,5 @@ const app=express();
 
 
 app.listen(prototype,()=>{
-    console.log("server is")
+    console.log(`server is runnin on port: ${PORT}`)
 })
